@@ -40,7 +40,7 @@ export default {
       label: "Width",
       type: "length-measure",
       defaultValue: {
-        length: 60,
+        length: 130,
         unit: "cm",
       },
     },
