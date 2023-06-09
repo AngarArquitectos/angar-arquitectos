@@ -6,8 +6,9 @@
 
 - [CREAR UN MODULO](documentacion/COMO_CREAR_UN_MODULO_PARA_EL_CATALOGO.md)
 
-IMPORTANTE QUE LAS IMÁGENES DEL PROYECTO ESTÉN EN DEMO/CATALOG
 ## PUNTO DE ENTRADA DE LA APLICACIÓN
+
+[esta carpeta](demo/src) es donde compilará, ahí irán las imagenes y el archivo rederer.jsx que tiene el punto de entrada.
 
 ```es6
 import React from "react";
