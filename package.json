@@ -1,11 +1,14 @@
 {
   "name": "react-planner",
   "version": "2.0.6",
+  "home":"https://angararquitectos.github.io/angararquitectos",
   "description": "react-planner is a React Component for plans design. Draw a 2D floorplan and navigate it in 3D mode.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
+    "predeploy": "npm run build-demo",
+    "deploy": "gh-pages -d build",
     "start": "concurrently \"webpack-dev-server --inline --config demo/webpack.config.js --port 9000 --mode development\" \"node server.js\"",
     "build-demo": "webpack --config demo/webpack.config.js --mode production",
     "build-commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
@@ -100,7 +103,7 @@
     "const-version": "2.0.0",
     "cross-env": "5.2.0",
     "file-loader": "3.0.1",
-    "gh-pages": "2.0.1",
+    "gh-pages": "^2.0.1",
     "immutable-devtools": "0.1.4",
     "react": "16.8.5",
     "react-container-dimensions": "1.4.1",
