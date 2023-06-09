@@ -2,6 +2,10 @@
 ![javascript][js]
 ![react-version][react_version]
 
+## DOCUMENTACION
+
+- [CREAR UN MODULO](documentacion/COMO_CREAR_UN_MODULO_PARA_EL_CATALOGO.md)
+
 ## PUNTO DE ENTRADA DE LA APLICACIÓN
 
 ```es6
@@ -111,10 +115,6 @@ ReactDOM.render(
   document.getElementById("app")
 );
 ```
-
-## Docs
-
-- [CREAR UN MODULO](docs/COMO_CREAR_UN_MODULO_PARA_EL_CATALOGO.md)
 
 ## Authors
 
