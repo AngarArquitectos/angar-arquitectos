@@ -8,7 +8,7 @@
   "jsnext:main": "es/index.js",
   "scripts": {
     "predeploy": "npm run build-demo",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d demo/dist",
     "start": "concurrently \"webpack-dev-server --inline --config demo/webpack.config.js --port 9000 --mode development\" \"node server.js\"",
     "build-demo": "webpack --config demo/webpack.config.js --mode production",
     "build-commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",

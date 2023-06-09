@@ -10,7 +10,7 @@ import PanelLayerElements from "./panel-layer-elements";
 import LoadSample from "./panel-load-sample/load-sample";
 import * as SharedStyle from "../../shared-style";
 import If from "../../utils/react-if";
-import logo from "../../logo.png";
+import imagen from "../../../demo/src/public/logo.png";
 import PanelFinalizar from "./panel-finalizar/panel-finalizar";
 import PanelAcabados from "./panel-acabados/panel-acabados";
 
@@ -148,7 +148,7 @@ export default class Sidebar extends Component {
 
     return (
       <div style={{ width }}>
-        <img src={logo} style={{ height: logoHeight, width, ...STYLE }}></img>
+        <img src={imagen} style={{ height: logoHeight, width, ...STYLE }}></img>
         <aside
           style={{ height: sidebarheight, ...STYLE }}
           onKeyDown={(event) => event.stopPropagation()}
