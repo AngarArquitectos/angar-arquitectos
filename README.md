@@ -114,7 +114,7 @@ ReactDOM.render(
 
 ## Docs
 
-- [Create a Property](docs/COMO_CREAR_UN_MODULO_PARA_EL_CATALOGO.md)
+- [CREAR UN MODULO](docs/COMO_CREAR_UN_MODULO_PARA_EL_CATALOGO.md)
 
 ## Authors
 
