@@ -43,26 +43,6 @@ function LineAttributesEditor(_ref, _ref2) {
           React.createElement(
             'td',
             { style: firstTdStyle },
-            translator.t('Name')
-          ),
-          React.createElement(
-            'td',
-            null,
-            React.createElement(FormTextInput, {
-              value: name,
-              onChange: function onChange(event) {
-                return _onUpdate('name', event.target.value);
-              },
-              style: inputStyle
-            })
-          )
-        ),
-        React.createElement(
-          'tr',
-          null,
-          React.createElement(
-            'td',
-            { style: firstTdStyle },
             'X1'
           ),
           React.createElement(

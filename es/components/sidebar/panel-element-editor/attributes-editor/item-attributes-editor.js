@@ -37,26 +37,6 @@ export default function ItemAttributesEditor(_ref, _ref2) {
         React.createElement(
           'td',
           { style: firstTdStyle },
-          translator.t('Name')
-        ),
-        React.createElement(
-          'td',
-          null,
-          React.createElement(FormTextInput, {
-            value: name,
-            onChange: function onChange(event) {
-              return onUpdate('name', event.target.value);
-            },
-            style: inputStyle
-          })
-        )
-      ),
-      React.createElement(
-        'tr',
-        null,
-        React.createElement(
-          'td',
-          { style: firstTdStyle },
           'X'
         ),
         React.createElement(

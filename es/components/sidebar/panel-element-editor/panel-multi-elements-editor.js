@@ -42,7 +42,7 @@ var PanelMultiElementsEditor = function (_Component) {
       console.log('need to be added to group', groupID, 'elements', selecteds);
 
       /*let selectedJs = selecteds.toJS();
-       for( let lineID in selectedJs.lines ) Group.addElement( state, groupID, layerID, 'lines', lineID );*/
+        for( let lineID in selectedJs.lines ) Group.addElement( state, groupID, layerID, 'lines', lineID );*/
     }
   }, {
     key: 'render',

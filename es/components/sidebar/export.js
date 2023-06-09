@@ -3,13 +3,17 @@ import Panel from './panel';
 import PanelLayers from './panel-layers';
 import PanelLayerElement from './panel-layer-elements';
 import PanelGuides from './panel-guides';
+import LoadSample from './panel-load-sample/load-sample';
+import PanelAcabados from './panel-acabados/panel-acabados';
 
-export { Sidebar, Panel, PanelLayers, PanelLayerElement, PanelGuides };
+export { Sidebar, Panel, PanelLayers, PanelLayerElement, PanelGuides, LoadSample, PanelAcabados };
 
 export default {
   Sidebar: Sidebar,
   Panel: Panel,
   PanelLayers: PanelLayers,
   PanelLayerElement: PanelLayerElement,
-  PanelGuides: PanelGuides
+  PanelGuides: PanelGuides,
+  LoadSample: LoadSample,
+  PanelAcabados: PanelAcabados
 };

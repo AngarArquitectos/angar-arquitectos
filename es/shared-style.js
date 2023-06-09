@@ -29,19 +29,19 @@ export var MATERIAL_COLORS = {
 };
 
 export var PRIMARY_COLOR = {
-  main: '#28292D',
-  alt: '#2E2F33',
-  icon: '#C2C2C2',
+  main: COLORS.white,
+  alt: '#FFFF',
+  icon: COLORS.black,
   border: '1px solid #555',
-  text_main: COLORS.white,
-  text_alt: '#EBEBEB',
+  text_main: COLORS.black,
+  text_alt: '#FFFF',
   input: '#55595C'
 };
 
 export var SECONDARY_COLOR = {
-  main: '#1CA6FC',
+  main: COLORS.black,
   alt: '#005FAF',
-  icon: '#1CA6FC',
+  icon: '#7d0933',
   border: '1px solid #FFF'
 };
 
