@@ -7,7 +7,7 @@
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
-    "predeploy": "npm run build-demo",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "concurrently \"webpack-dev-server --inline --config demo/webpack.config.js --port 9000 --mode development\" \"node server.js\"",
     "build-demo": "webpack --config demo/webpack.config.js --mode production",
