@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'AgencyFB';
+  src: local('../../fonts/AGENCYR.TTF'), url('../../fonts/AGENCYR.TTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
